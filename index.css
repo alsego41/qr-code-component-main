@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: hsl(212deg, 45%, 89%);
   font-family: "Outfit", sans-serif;
@@ -12,6 +16,17 @@ p {
   color: hsl(220deg, 15%, 55%);
   font-size: 15px;
   font-weight: 400;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

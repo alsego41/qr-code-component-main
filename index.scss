@@ -3,6 +3,10 @@ $component: hsl(0, 0%, 100%);
 $font-primary: hsl(218, 44%, 22%);
 $font-secondary: hsl(220, 15%, 55%);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $background;
   font-family: "Outfit", sans-serif;
@@ -17,4 +21,15 @@ p {
   color: $font-secondary;
   font-size: 15px;
   font-weight: 400;
+}
+
+main {
+  background-color: $component;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
 }
